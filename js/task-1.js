@@ -1,6 +1,6 @@
 function slugify(title){
     title = title.toLowerCase();
-    return title = title.split(" ").join("-");
+    return title = `"${title.split(" ").join("-")}"`;
 }
 
 
